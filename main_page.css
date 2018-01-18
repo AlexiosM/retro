@@ -1,0 +1,73 @@
+	/* Remove the navbar's default rounded borders and increase the bottom margin */ 
+   
+   .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+
+	.jumbotron { 
+		color: #ffffff; 				/* company name color */
+		background-color: rgba(0,0,255,0.8);
+		width: 100%;
+	}
+   
+    /* Add a gray background color and some padding to the footer */
+	.footer {
+		background-color: #f2f2f2;
+		padding: 25px;
+	}
+
+textarea{
+		width: 80%;
+		height: 20%;
+	}
+	
+/*for table and delete button*/	
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.deleteButton {
+	-moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	background-color:#e4685d;
+	border-radius:4px; 
+	border:1px solid #ffffff;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.deleteButton:hover {
+	background-color:#eb675e;
+}
+.deleteButton:active {
+	position:relative;
+	top:1px;
+}
+
+#select_btn{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	border: none;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+
+	}

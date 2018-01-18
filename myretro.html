@@ -1,0 +1,43 @@
+<html>
+
+<head>
+<title>MyRetro</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="myfunctions.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="main_page.css">
+
+</head>
+
+<div class="container-fluid">
+<body>
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Agile Company</h1>      
+    <p>Retrospective</p>
+  </div>
+</div>
+
+<div class="row">
+	<div class="col-sm-6">
+	<br>
+	<textarea id="myData" placeholder="Enter comments for the last sprint"></textarea>
+	<br>
+	<input type="submit" onclick="addRow();" value="Add and Next">
+	</div>
+	
+	<div class="col-sm-6">
+		<table id="myTable">
+			<tr></tr><tr></tr><tr></tr>
+		</table>
+	</div>
+	
+</div> <!--row-->
+
+</div><!--container-->
+
+</body>
+</html>
